@@ -22,7 +22,7 @@ public class ReactNativeAutoUpdaterPackage implements ReactPackage {
         return list;
     }
 
-    @Override
+    // Deprecated RN 0.47
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
